@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/jpeg" href="/profile_new.jpg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Avi Singh | Portfolio</title>
+    <script>
+      // Ensure dark is the default before React mounts to avoid flash
+      (function () {
+        try {
+          var t = localStorage.getItem('theme');
+          if (t === 'light') {
+            document.documentElement.classList.remove('dark');
+          } else {
+            document.documentElement.classList.add('dark');
+            if (!t) localStorage.setItem('theme', 'dark');
+          }
+        } catch (e) {
+          // If localStorage is not accessible, default to dark
+          document.documentElement.classList.add('dark');
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
