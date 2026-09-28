@@ -19,12 +19,12 @@ export const HeroSection = () => {
           
           <div className="border-l-4 border-primary pl-4 py-1 my-6">
             <p className="text-lg md:text-xl font-medium text-muted-foreground">
-              AI/ML & Data Enthusiast | Software Developer
+              AI/ML Enthusiast | Software Developer
             </p>
           </div>
           
           <p className="text-muted-foreground leading-relaxed text-base md:text-lg max-w-lg">
-            As an AI/ML Engineer & Software Developer, I have gained valuable experience in computer vision, deep learning, and end-to-end application development. I am currently pursuing my Bachelor of Computer Applications (BCA) at the Invertis University. I am passionate about staying updated with the latest AI trends and technologies, and I am always eager to transform complex data into functional, deployable systems.
+            I completed my BCA in 2026 and am currently pursuing my MCA at Invertis University. As an AI/ML enthusiast, I have hands-on experience in computer vision, deep learning, and application development. I enjoy turning ideas into practical, deployable solutions and exploring emerging AI technologies.
           </p>
           
           <div className="flex flex-wrap items-center gap-4 pt-4">
@@ -36,8 +36,8 @@ export const HeroSection = () => {
             </a>
           </div>
           
-          <div className="pt-8 text-sm text-muted-foreground flex items-center gap-2">
-            <span className="text-primary font-medium">Let's</span> Build Something Amazing Together 🚀
+          <div className="pt-8 text-sm font-medium text-muted-foreground flex items-center gap-2">
+            Building practical solutions with AI & code. 🚀
           </div>
         </div>
 
@@ -47,25 +47,27 @@ export const HeroSection = () => {
           {/* Card */}
           <div className="bg-card rounded-2xl overflow-hidden shadow-2xl shadow-primary/5 relative flex flex-col h-[480px] lg:h-[520px] border border-border">
             {/* Header */}
-            <div className="bg-card pt-6 pb-4 px-4 text-center z-10 shrink-0 border-b border-border/50">
+            <div className="bg-card pt-6 pb-4 px-4 text-center z-10 shrink-0 border-b border-border/10">
               <h2 className="text-primary font-black text-2xl lg:text-3xl tracking-wider">AVI SINGH</h2>
-              <p className="text-xs text-muted-foreground font-bold uppercase tracking-widest mt-1">AI/ML Enthusiast & Developer</p>
+              <p className="text-[10px] sm:text-xs text-muted-foreground font-bold uppercase tracking-widest mt-1">AI/ML Enthusiast & Software Developer</p>
             </div>
             
             {/* Image */}
-            <div className="flex-grow relative w-full bg-muted">
-              <img 
-                src={ProfileImg} 
-                alt="Avi Singh" 
-                className="w-full h-full object-cover object-top absolute inset-0" 
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-background/90 via-background/20 to-transparent"></div>
+            <div className="flex-grow relative w-full flex items-center justify-center overflow-hidden">
+              <div className="w-[85%] h-[90%] rounded-xl overflow-hidden border border-primary/30 shadow-[0_0_30px_rgba(139,92,246,0.2)]">
+                <img 
+                  src={ProfileImg} 
+                  alt="Avi Singh" 
+                  className="w-full h-full object-cover object-top" 
+                />
+              </div>
+              <div className="absolute inset-0 bg-gradient-to-t from-background/90 via-background/10 to-transparent pointer-events-none"></div>
             </div>
             
             {/* Footer Banner */}
             <div className="absolute bottom-4 left-4 right-4 bg-card/95 backdrop-blur-sm rounded-xl p-4 shadow-lg border border-border z-20">
-              <h4 className="text-foreground text-sm font-bold leading-tight mb-1">AI/ML Engineer &<br/>Software Developer</h4>
-              <p className="text-muted-foreground text-xs">Invertis University</p>
+              <h4 className="text-foreground text-sm font-bold leading-tight mb-1">MCA • Invertis University</h4>
+              <p className="text-muted-foreground text-xs">AI/ML & Software Developer</p>
               <div className="absolute top-1/2 -translate-y-1/2 right-4 w-2 h-2 rounded-full bg-green-500 shadow-[0_0_8px_rgba(34,197,94,0.8)]"></div>
             </div>
           </div>
